@@ -3,3 +3,6 @@
 node_modules
 #claves
 .env
+#otros
+netbooks.js
+*.sh
