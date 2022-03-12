@@ -24,7 +24,7 @@ async function scraping(){
   await page.waitForSelector('table#gridAvanceSelfServiceIssuerSub1');//Esperamos a la tabla de saldo
   await page.$eval('table#gridAvanceSelfServiceIssuerSub1>tbody>tr:nth-child(3)>td~td',(el) => el.innerText)
 		.then((valor)=>{
-                        console.log(valor)
+                        console.log("Tu saldo: " + valor)
 			notifier.notify({
 				title: 'Argentina Programa',
 				message: "Tu saldo: " + parseInt(valor),
