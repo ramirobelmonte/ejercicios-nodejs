@@ -1,11 +1,18 @@
 # ejercicios-nodejs
 
-Crear un archivo .env que contenga las siguientes definiciones
-
-PATH_BROWSER= La ruta donde está instalado tu navegador favorito
+Crear un archivo `.env` que contenga las siguientes definiciones
 
 
-USER_NAME= El usuario de tu cuenta
+La ruta donde está instalado tu navegador favorito
 
 
-PASSWORD= Con la contraseña
+    `PATH_BROWSER=` _/opt/vivaldi/vivaldi_
+
+
+El usuario y contraseña de tu cuenta
+
+
+    `USERNAME=` _pepito_
+
+
+    `PASSWORD=` _pepito2020_

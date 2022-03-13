@@ -16,7 +16,7 @@ async function scraping(){
   await page.setDefaultNavigationTimeout(0);
   await page.goto('https://www1.masterconsultas.com.ar/socios/context/init_input.action');//Url de la web
   await page.waitForSelector('input#usernameId');//Espera a que cargue el formulario
-  await page.type('input#usernameId',process.env.USER_NAME);
+  await page.type('input#usernameId',process.env.USERNAME);
   await page.waitForTimeout(500);
   await page.type('input#password',process.env.PASSWORD);
   await page.waitForTimeout(500);
