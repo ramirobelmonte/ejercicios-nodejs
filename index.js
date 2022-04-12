@@ -27,7 +27,7 @@ async function scraping(){
                         console.log("Tu saldo: " + valor)
 			notifier.notify({
 				title: 'Argentina Programa',
-				message: "Tu saldo: " + parseInt(valor),
+				message: "Tu saldo: " + parseInt(valor)*1000,
 				icon: 'process-completed-symbolic'
  			})
 		})
